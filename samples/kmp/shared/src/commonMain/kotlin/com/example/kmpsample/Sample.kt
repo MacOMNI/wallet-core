@@ -2,7 +2,7 @@ package com.example.kmpsample
 import com.trustwallet.core.*
 
 class Sample {
-    private val platform: Platform = getPlatform()
+//    private val platform: Platform = getPlatform()
 
     fun greet(): String {
         var log = "Wallet Core KMP on platform: ${platform.name}!\n\n"
